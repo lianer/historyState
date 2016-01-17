@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>historyState</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <ul class="list" id="list">
@@ -10,6 +11,12 @@
     </ul>
     <div class="action">
         <a href="javascript:;" class="load" id="load">点我加载更多</a>
+        <p class="tip">
+            刷新页面或访问别的页面再后退，这些加载的数据都可以恢复
+        </p>
+        <p class="tip">
+            在console中执行 historyState.clear() 后再刷新页面试试
+        </p>
     </div>
 
     <script src="../historyState.js"></script>
