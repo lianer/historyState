@@ -21,7 +21,7 @@ var historyState = function() {
     if(history.state instanceof Object){
         Object.keys(history.state).forEach(function (name) {
             props[name]={
-                value: history.state[a],
+                value: history.state[name],
                 writable: true,
                 configurable: true,
                 enumerable: true
